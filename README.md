@@ -1,5 +1,6 @@
 Проект по автоматизации API-тестов для сервиса «Яндекс Самокат»
 https://qa-scooter.praktikum-services.ru/
+Документация сервиса https://qa-scooter.praktikum-services.ru/docs/
 
 Структура репозитория
 Корневая директория проекта содержит набор тестов и файлы со вспомогательными инструментами:
@@ -24,3 +25,4 @@ https://qa-scooter.praktikum-services.ru/
 
 Отчет о тестировании
 Allure-отчет в формате веб-страницы генерируется командой allure serve allure_results.
+
