@@ -3,12 +3,6 @@ from faker import Faker
 
 fake = Faker()
 
-class Url:
-    MAIN_URL = "https://qa-scooter.praktikum-services.ru"
-    COURIER_URL = "/api/v1/courier"
-    COURIER_LOGIN = "/api/v1/courier/login"
-    ORDER_URL = "/api/v1/orders"
-    CANCEL_ORDER = "/api/v1/orders/cancel"
 
 class Data:
     new_courier = {
@@ -37,3 +31,4 @@ class ResponseMessage:
     INSUFFICIENT_DATA = "Недостаточно данных для создания учетной записи"
     INSUFFICIENT_LOGIN_INFORMATION = "Недостаточно данных для входа"
     ACCOUNT_NOT_FOUND = "Учетная запись не найдена"
+
